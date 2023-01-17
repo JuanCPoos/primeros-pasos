@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ------- HEADER ------*/
+.header {
+  background-color: #072146;
+  height: 75px;
+  border-bottom: 1px solid #80ace9;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.header__wrapper nav {
+  margin: 0;
+  padding: 0;
+}
+
+.header__wrapper nav ul {
+  display: flex;
+}
+
+.header__wrapper nav ul li {
+  list-style-type: none;
+  margin: 1em;
+}
+
+.header__wrapper nav ul li a {
+  text-decoration: none !important;
+  color: white;
+
+}
+
+
+/* ----- FIN HEADER -----*/
+
+.menu {
+  height: 40px;
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu p {
+  line-height: 40px;
+}
+
+.menu img {
+  max-width: 100px;
+  height: 40px;
+}
+
+/* --- FOOTER ---- */
+
+footer {
+  background-color: #072146;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding: 0;
+  margin: 0;
+
+}
+
+.footer__wrapper {
+  position: relative;
+}
+
+.link__interes {}
+
+.link__interes ul {
+  display: block;
+
+}
+
+.link__interes ul li {
+  list-style-type: none;
+
+}
+
+.link__interes ul li a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* --- FIN FOOTER --- */
