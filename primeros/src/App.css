@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f4f4f4;
+  background-color: #ffff;
 }
 
 .App {
@@ -45,6 +45,19 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
 }
 
 /* ------- HEADER ------*/
@@ -103,17 +116,78 @@ body {
   height: 40px;
 }
 
+/* ---- MODAL ---- */
+
+.banner__bienvenida {
+  width: 750px;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-bottom: 1px inset rgb(184, 178, 178);
+
+}
+
+.banner__explicaciones {
+  background-color: #1973B8;
+  padding: 40px 25px;
+
+}
+
+.banner__explicaciones h3 {
+  color: white !important;
+}
+
+.banner__box {
+  background-color: #1464A5;
+  margin: 0;
+}
+
+.link__banner__software {
+  float: right;
+}
+
+.link__banner__software a {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.mod {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1144px;
+}
+
+.mod .mensaje {}
+
+.mod img {
+  width: 50%;
+}
+
+.mod__text {
+  background-color: #f4f4f4;
+  padding: 5px 20px;
+  text-align: justify;
+}
+
+.mod__text__2 {
+  margin: 0 0 15px 0;
+  background-color: #f4f4f4;
+  text-align: justify;
+  padding: 10px 15px;
+}
+
+.banner {
+  margin: 50px 0;
+}
+
 /* --- FOOTER ---- */
 
 footer {
   background-color: #072146;
-  position: absolute;
   bottom: 0;
   width: 100%;
   color: white;
   padding: 0;
   margin: 0;
-
+  height: 150px;
 }
 
 .footer__wrapper {

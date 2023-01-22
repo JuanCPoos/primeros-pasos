@@ -1,9 +1,9 @@
 import React from "react";
 import logo from './logo.svg';
 import './App.css';
-import Componente from "./components/Componente";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Modal from "./components/Modal"; 
 
 function App() {
   return (
@@ -11,11 +11,10 @@ function App() {
       <div class="header">
         <Header />
       </div>
-      <section>
-        <Componente msg="Hola soy compon" />
-        <Footer />
+      <section>        
+        <Modal />
       </section>
-
+      <Footer />
     </div>
   );
 }
