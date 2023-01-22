@@ -25,7 +25,7 @@ function Modal() {
                     </div> 
                 </div>
 
-                <div class="mensaje container">
+                <div class="mensaje mb-5 container">
                     <h3 class="banner__box mt-5 pt-4 pb-4">¿Qué es un software developer?</h3>
                     <div class="mod__text__2">
                         <p>El Software Developer es la persona responsable de crear sistemas informáticos e implementarlos. Estos desarrolladores son quienes escriben código que luego se traduce en un sitio web funcional o una aplicación. ¿Y a qué nos referimos con Software? El software en sí es el conjunto de instrucciones o programas que le dicen a los dispositivos qué hacer, cómo y cuándo.</p>
@@ -36,9 +36,7 @@ function Modal() {
                     <a href="#" class="align-text-bottom btn btn-danger">Leer más</a>
                 </div>                    
                 
-            </div>  
-
-            
+            </div>            
             
                      
             <div class="row mt-5">

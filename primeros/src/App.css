@@ -129,7 +129,7 @@ p {
 .banner__explicaciones {
   background-color: #1973B8;
   padding: 40px 25px;
-
+  margin: 0 0 80px 0;
 }
 
 .banner__explicaciones h3 {
@@ -212,3 +212,35 @@ footer {
 }
 
 /* --- FIN FOOTER --- */
+
+
+/* --- Section LOS PROGRAMAS --- */
+
+.base {
+  margin: 80px 0;
+  color: white;
+}
+
+.base__programas {
+  background-image: ulr("img/imgModal");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #92E2D7;
+}
+
+.base h1 {
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.banner__header__programas {
+  padding: 200px 35px;
+  margin-bottom: 75px;
+
+
+}
+
+.programas__carousel {}
+
+
+/* --- FIN LOS PROGRAMAS --- */

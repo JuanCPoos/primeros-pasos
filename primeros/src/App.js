@@ -4,6 +4,7 @@ import './App.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Modal from "./components/Modal"; 
+import Programas from "./components/Programas";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       </div>
       <section>        
         <Modal />
+        <Programas />
+        
       </section>
       <Footer />
     </div>
