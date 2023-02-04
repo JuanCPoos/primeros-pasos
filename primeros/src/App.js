@@ -6,20 +6,19 @@ import Footer from "./components/Footer";
 import Modal from "./components/Modal"; 
 import Programas from "./components/Programas";
 
-function App() {
-  return (
-    <div className="App">        
-      <div class="header">
-        <Header />
-      </div>
-      <section>        
-        <Modal />
-        <Programas />
-        
-      </section>
-      <Footer />
-    </div>
-  );
+class App extends React.Component { 
+  render() {
+    return (
+      <div className="App">
+        <div className="header">
+          <Header />          
+        </div>
+        <section>
+          <Modal />
+        </section>
+      </div>      
+    );
+  } 
 }
 
 export default App;
