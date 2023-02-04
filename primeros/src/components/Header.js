@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
-function Header() {
-    return (
-        <div class="container header" >
+class Header extends Component { 
+    render() { 
+        return (
+            <div class="container header" >
             <div class="header__wrapper">
                 <div class="logo">
                     <nav class="navbar">
@@ -23,8 +24,8 @@ function Header() {
                     </ul>
                 </nav>
             </div>        
-    </div>
-    )
+        </div>
+        );
+    }
 }
-
 export default Header;
