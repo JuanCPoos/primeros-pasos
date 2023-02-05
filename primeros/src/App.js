@@ -4,7 +4,10 @@ import './App.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Modal from "./components/Modal"; 
-import Programas from "./components/Programas";
+import Informacion from "./components/Informacion";
+import { StackFrontend } from "./components/StackFrontend";
+import { StackBackend } from "./components/StackBackend";
+
 
 class App extends React.Component { 
   render() {
@@ -15,6 +18,9 @@ class App extends React.Component {
         </div>
         <section>
           <Modal />
+          <Informacion />
+          <StackFrontend />
+          <StackBackend />
         </section>
       </div>      
     );

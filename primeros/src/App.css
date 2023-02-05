@@ -215,6 +215,26 @@ footer {
 
 
 /* --- Section LOS PROGRAMAS --- */
+.stack {
+  padding: 7px 0;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+.titulo__stack {
+  align-items: center;
+  justify-content: center;
+  min-width: 350px;
+  padding: 7px 0;
+  background-color: rgb(202, 202, 202, 0.4);
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 5px;
+}
+
+.titulo__stack h2 {
+  padding: 0;
+  margin: 0;
+}
 
 .base {
   margin: 80px 0;

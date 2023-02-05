@@ -1,8 +1,10 @@
 import React, { Component } from "react"; 
 
-function Footer() {
-    return (
-        <footer>
+
+class Footer extends Component{
+    render() {
+        return (
+            <footer>
             <div className="container text-center">
                 <div className="footer__wrapper pt-4 pb-4">
                     <div className="row">
@@ -22,10 +24,10 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-            </div>
-        
-    </footer>
-    )
+            </div>        
+        </footer>
+        );
+    }
 }
 
 export default Footer;
